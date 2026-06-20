@@ -1,0 +1,24 @@
+# 副業支援エージェント - 依存ライブラリ
+# インストール: pip install -r requirements.txt
+
+# コア
+# （標準ライブラリのみで動作。以下は将来の拡張用）
+
+# オプション：Claude API 統合用
+# anthropic>=0.7.0
+
+# オプション：データベース用
+# sqlalchemy>=2.0.0
+# psycopg2-binary>=2.9.0
+
+# オプション：Web API 用
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+
+# オプション：テスト用
+pytest>=7.0.0
+
+# オプション：開発用
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
